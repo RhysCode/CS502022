@@ -1,0 +1,58 @@
+What ultimately matters in this course, is not so much where you end up relative to your classmates, but where you end up relative to yourself when you began.
+
+Computer Science: "The Study of Information"
+
+Input -> [ ] -> Output
+
+Computers use Binary.
+
+Binary Digit = Bit = 0 OR 1
+
+8421
+0001 = 1
+0010 = 2
+0011 = 3
+0100 = 4
+0101 = 5
+0110 = 6
+0111 = 7
+1000 = 8
+
+42 Minutes on the Y2K Problem
+
+Byte/Octet = Eight Bits
+
+11111111 = 255
+
+Kilobyes = Thousands of Bytes
+Megabytes = Millions of Bytes
+Gigabytes = Billions of Bytes
+
+A = 65 0 01000001
+
+ASCII (American Standard Code for Information Interchange): A mapping between numbers, and letters.
+
+Unicode: A mapping between numbers, and letters, for all different languages (including emojis).
+
+RGB (Red, Green, Blue): Every pixel on your screen uses three channels, or three bytes (24 bits), to create a wide assortment of colors on screen. 
+
+Pseudocode
+Pseudocode literally means ‘fake code’. It is an informal and contrived way of writing programs in which you represent the sequence of actions and instructions (aka algorithms) in a form that humans can easily understand.
+
+1. Pick up phone book.
+2. Open to the middle of the phone book.
+3. Look at page.
+4. If person is on page
+  Call person.
+5. Else if person is earlier in book
+  Open to middle of left half of book.
+  Go back to line 3.
+6. Else if person is later in book
+  Open to middle of right half of book.
+  Go back to line 3.
+7. Else
+  Quit
+  
+If, Else If, and Else = Conditions
+Person is on Page = Boolean Expression (a True or a False answer, i.e. a 1, or a 0)
+Go back to line 3 = Loop
