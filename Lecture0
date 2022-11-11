@@ -56,3 +56,21 @@ Pseudocode literally means ‘fake code’. It is an informal and contrived way 
 If, Else If, and Else = Conditions
 Person is on Page = Boolean Expression (a True or a False answer, i.e. a 1, or a 0)
 Go back to line 3 = Loop
+
+1. Stand up, and think of the number 1.
+2. Pair off with someone standing, add their number to your number, and remember the sum.
+3. One of you in each pair should sit down.
+4. If still standing, go back to step 2.
+
+Input (Argument) -> Algorithm (Function) -> Output (Side-Effect)
+
+Sprite
+In the context of computer graphics, a sprite refers to a two-dimensional bitmap image that is integrated into a larger scene. The 'imaage' has to be a sprite if you want it to perform things interactively (e.g. the bin in David's programme, Oscartime), as opposed to an jpeg. 
+
+Paralell Algorithm
+
+Distributed Algorithm
+
+Abstraction
+
+Refactoring
