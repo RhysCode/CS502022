@@ -1,0 +1,166 @@
+Source Code
+
+Machine Code
+
+Compiler
+
+Quality of Code: Correctness, Design, and Style
+
+Terminal / CLI: Command Line Interface
+
+GUI: Graphicical User Interface (Interacting via mouse, touchscreen, etc)
+
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, World!\n");
+}
+
+#Include Line is a Header File, which pulls through the 'Standard IO (Input/Output' Library (we use printf in this case)
+
+Syntax Highlighting
+
+String of text must stay on the same line in C, without you hitting the Enter Key. Though it can soft wrap
+
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    string first = get_string("What is your Title? ");
+    string second = get_string("What's your First Name? ");
+    string third = get_string("What's your Last Name? ");
+    printf("Hello, %s %s %s\n", first, second, third);
+}
+
+%s means
+
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+
+{
+   int x = get_int("What's x? ");
+   int y = get_int("What's y? ");
+
+    if (x < y)
+    {
+        printf("x is less than y.\n");
+    }
+
+    else if (x > y)
+    {
+        printf("x is greater than y.\n");
+    }
+    else
+    {
+        printf("x is equal to y.\n");
+    }
+}
+
+In C, when using chars, use single quotes, when using strings, use double quotes.
+
+The double-bar || means 'OR'
+
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    char c = get_char("Do you Agree? ");
+
+    if (c == 'y' || c == 'Y')
+    {
+        printf("Agreed.\n");
+    }
+    else if (c == 'n' || c == 'N')
+    {
+        printf("Not Agreed.\n");
+    }
+}
+
+Indents to four spaces, if you hihlight your code, you will be able to visualise this.
+
+counter = counter + 1; IS THE SAME AS counter+= 1;
+
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 0;
+    while (i < 20)
+    {
+        printf("Meow\n");
+        i++;
+    }
+}
+
+The Following is the Same as the Prior, using a for loop instead of a while:
+
+#include <stdio.h>
+
+int main(void)
+
+{
+for (int i = 0; i < 3; i++)
+    {
+    printf("meow\n");
+    }
+
+}
+
+Infinite Loop:
+
+#include <bool.h>
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+
+while (true)
+{
+    printf("Yo\n");
+}
+
+Nested Loops:
+
+#include <stdio.h>
+
+int main(void)
+{
+    const int n = 5;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+}
+
+
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    // Get Size of Grid  
+    int n;
+    {
+        n = get_int("Size: ");
+    }
+    while (n < 1);
+    
+    // Prints the Grid of Bricks
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
+}
